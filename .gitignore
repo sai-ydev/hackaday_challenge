@@ -49,3 +49,4 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+esp32_wroom_wearable~renumsch.scr
