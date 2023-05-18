@@ -185,7 +185,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6YW5zYWJpbzU" projecturn="a.YnVzaW5lc3M6YW5zYWJpbzUjMjAyMzAyMDg2MDcwOTUxNTY" f3durn="urn:adsk.wipprod:dm.lineage:VZmaMG_-Sym1x4W6aNVCag" pcbguid="38e40540-2838-4419-b422-ed815fe6d306" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d75f652d-4ded-46d0-984b-d3fa4e25d284" lastsyncedrevisionid="d75f652d-4ded-46d0-984b-d3fa4e25d284" lastboardhashguid="c9866347-034b-1b36-7f73-066f90f6dc7d" lastpushedtime="2023-05-18T16:39:43Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6YW5zYWJpbzU" projecturn="a.YnVzaW5lc3M6YW5zYWJpbzUjMjAyMzAyMDg2MDcwOTUxNTY" f3durn="urn:adsk.wipprod:dm.lineage:VZmaMG_-Sym1x4W6aNVCag" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="913a487b-8a9e-495b-a0e4-bc5fd6688a14" lastsyncedrevisionid="913a487b-8a9e-495b-a0e4-bc5fd6688a14" lastboardhashguid="7b005444-2b91-42de-1aea-e964e27bc73e" lastpushedtime="2023-05-18T17:58:19Z" linktopcb3d="true"/>
 <plain>
 <wire x1="34.925" y1="53.848" x2="0.867221875" y2="53.848" width="0" layer="20"/>
 <wire x1="0.867221875" y1="53.848" x2="0" y2="52.980778125" width="0" layer="20" curve="90"/>
@@ -1712,7 +1712,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="8.509" y="7.112" size="1.016" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12416" x="-63.373" y="-9.525" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF" x="6.604" y="52.197" smashed="yes" rot="R90">
+<element name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" override_package3d_urn="urn:adsk.eagle:package:40421717/2" override_package_urn="urn:adsk.eagle:footprint:37389/1" value="0.1uF" x="6.604" y="52.197" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.128" y="51.943" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12416" x="73.914" y="96.647" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -1720,19 +1720,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="2.54" y="6.35" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12416" x="-64.516" y="-44.069" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C15" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0402" package3d_urn="urn:adsk.eagle:package:8004285/1" value="10uF" x="7.62" y="16.129" smashed="yes">
+<element name="C15" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0402" package3d_urn="urn:adsk.eagle:package:8004285/1" override_package3d_urn="urn:adsk.eagle:package:40421658/2" override_package_urn="urn:adsk.eagle:footprint:8004271/1" value="10uF" x="7.62" y="16.129" smashed="yes">
 <attribute name="MPN" value="CC0402MRX5R5BB106" x="63.5" y="-54.991" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="8.001" y="17.272" size="1.016" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="C14" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0402" package3d_urn="urn:adsk.eagle:package:8004285/1" value="10uF" x="7.493" y="13.843" smashed="yes">
+<element name="C14" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0402" package3d_urn="urn:adsk.eagle:package:8004285/1" override_package3d_urn="urn:adsk.eagle:package:40421653/2" override_package_urn="urn:adsk.eagle:footprint:8004271/1" value="10uF" x="7.493" y="13.843" smashed="yes">
 <attribute name="MPN" value="CC0402MRX5R5BB106" x="68.453" y="-57.277" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="8.128" y="10.795" size="1.016" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="C19" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0402" package3d_urn="urn:adsk.eagle:package:8004285/1" value="4.7uF" x="13.589" y="15.621" smashed="yes" rot="R180">
+<element name="C19" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0402" package3d_urn="urn:adsk.eagle:package:8004285/1" override_package3d_urn="urn:adsk.eagle:package:40422762/2" override_package_urn="urn:adsk.eagle:footprint:8004271/1" value="4.7uF" x="13.589" y="15.621" smashed="yes" rot="R180">
 <attribute name="MPN" value="CC0402MRX5R5BB475" x="-32.131" y="86.741" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="14.097" y="12.065" size="1.016" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="C18" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0402" package3d_urn="urn:adsk.eagle:package:8004285/1" value="4.7uF" x="13.081" y="21.844" smashed="yes" rot="R90">
+<element name="C18" library="OPL_Capacitor" library_urn="urn:adsk.eagle:library:8004261" package="C0402" package3d_urn="urn:adsk.eagle:package:8004285/1" override_package3d_urn="urn:adsk.eagle:package:40422749/3" override_package_urn="urn:adsk.eagle:footprint:8004271/1" value="4.7uF" x="13.081" y="21.844" smashed="yes" rot="R90">
 <attribute name="MPN" value="CC0402MRX5R5BB475" x="84.201" y="72.644" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.525" y="21.336" size="1.016" layer="25" font="vector" ratio="20"/>
 </element>
@@ -1740,7 +1740,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="BL-HB337A-AV-TRB" x="78.105" y="81.28" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="17.653" y="16.129" size="1.016" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="D1" library="OPL_Discrete_Semiconductor" library_urn="urn:adsk.eagle:library:8004488" package="SOD-123" package3d_urn="urn:adsk.eagle:package:8004543/1" value="20V-1A" x="5.969" y="11.811" smashed="yes" rot="R90">
+<element name="D1" library="OPL_Discrete_Semiconductor" library_urn="urn:adsk.eagle:library:8004488" package="SOD-123" package3d_urn="urn:adsk.eagle:package:8004543/1" override_package3d_urn="urn:adsk.eagle:package:40421666/2" override_package_urn="urn:adsk.eagle:footprint:8004513/1" value="20V-1A" x="5.969" y="11.811" smashed="yes" rot="R90">
 <attribute name="MPN" value="B5819W" x="68.199" y="28.321" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.715" y="9.144" size="1.016" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="6.604" y="10.922" size="0.381" layer="33" ratio="10" rot="R90"/>
@@ -1776,7 +1776,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:2652347" package="SAMTECH_FTSH-105-01" package3d_urn="urn:adsk.eagle:package:2652744/1" override_package3d_urn="urn:adsk.eagle:package:40421290/2" override_package_urn="urn:adsk.eagle:footprint:37965/1" value="CORTEX_DEBUG_SMD" x="32.131" y="43.561" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.6738" y="42.2148" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:2652347" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:2652537/1" override_package3d_urn="urn:adsk.eagle:package:40421080/2" override_package_urn="urn:adsk.eagle:footprint:37714/1" value="" x="30.48" y="7.62" smashed="yes" rot="R90">
+<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:2652347" package="1X04_1MM_RA" package3d_urn="urn:adsk.eagle:package:2652537/1" override_package3d_urn="urn:adsk.eagle:package:40421080/3" override_package_urn="urn:adsk.eagle:footprint:37714/1" value="" x="30.48" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.639" y="6.223" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-13694" x="87.63" y="63.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="33.782" y="5.969" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
@@ -1814,7 +1814,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="7.112" y="47.244" size="1.016" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="-63.5" y="22.479" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="5.1k" x="26.543" y="1.016" smashed="yes" rot="R180">
+<element name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" override_package3d_urn="urn:adsk.eagle:package:40421671/2" override_package_urn="urn:adsk.eagle:footprint:39615/1" value="5.1k" x="26.543" y="1.016" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.083" y="1.397" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-12378" x="-6.477" y="68.326" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -1842,7 +1842,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="26.035" y="8.89" size="1.016" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="-6.096" y="79.629" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="5.1k" x="6.35" y="1.27" smashed="yes">
+<element name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" override_package3d_urn="urn:adsk.eagle:package:40421670/2" override_package_urn="urn:adsk.eagle:footprint:39615/1" value="5.1k" x="6.35" y="1.27" smashed="yes">
 <attribute name="NAME" x="3.81" y="0.762" size="1.016" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-12378" x="35.56" y="-66.04" size="1.778" layer="27" display="off"/>
 </element>
@@ -1894,7 +1894,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PRICE" value="None" x="88.392" y="-28.194" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/DRV2605LDGSR/?ref=eda" x="88.392" y="-28.194" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U4" library="MIC5504-3.3YM5_TR" package="SOT95P280X145-5N" value="MIC5504-3.3YM5_TR" x="9.906" y="14.605" smashed="yes" rot="R90">
+<element name="U4" library="MIC5504-3.3YM5_TR" package="SOT95P280X145-5N" override_package3d_urn="urn:adsk.eagle:package:40421715/2" override_package_urn="urn:adsk.eagle:footprint:40421716/1" value="MIC5504-3.3YM5_TR" x="9.906" y="14.605" smashed="yes" rot="R90">
 <attribute name="AVAILABILITY" value="In Stock" x="58.166" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5 " x="58.166" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Microchip" x="58.166" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1904,7 +1904,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PRICE" value="None" x="58.166" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MIC5504-3.3YM5 TR/?ref=eda" x="58.166" y="59.055" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U6" library="USBLC6-2SC6" package="SOT95P280X145-6N" value="USBLC6-2SC6" x="19.05" y="12.7" smashed="yes" rot="R270">
+<element name="U6" library="USBLC6-2SC6" package="SOT95P280X145-6N" override_package3d_urn="urn:adsk.eagle:package:40421647/2" override_package_urn="urn:adsk.eagle:footprint:40421648/1" value="USBLC6-2SC6" x="19.05" y="12.7" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="-36.83" y="-24.13" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" 17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 " x="-36.83" y="-24.13" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="STMicroelectronics" x="-36.83" y="-24.13" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1914,7 +1914,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PRICE" value="None" x="-36.83" y="-24.13" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/USBLC6-2SC6/?ref=eda" x="-36.83" y="-24.13" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U5" library="MCP73831T-2ATI_OT" package="SOT95P280X145-5N" value="MCP73831T-2ATI/OT" x="14.605" y="19.05" smashed="yes" rot="R270">
+<element name="U5" library="MCP73831T-2ATI_OT" package="SOT95P280X145-5N" override_package3d_urn="urn:adsk.eagle:package:40421698/2" override_package_urn="urn:adsk.eagle:footprint:40421699/1" value="MCP73831T-2ATI/OT" x="14.605" y="19.05" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="In Stock" x="-41.275" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Charger IC Lithium Ion/Polymer SOT-23-5 " x="-41.275" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Microchip" x="-41.275" y="-30.48" size="1.778" layer="27" rot="R270" display="off"/>
